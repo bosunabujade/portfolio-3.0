@@ -25,6 +25,11 @@ footer,
     min-width: 320px;
 
 }
+nav {
+    display: flex;
+    width: 100%;
+
+}
 h1 {
     color: #254E6B;
     font-family: "Sigmar One", cursive;
@@ -37,6 +42,7 @@ h2 {
     color: white;
     font-family: "Sigmar One", cursive;
     font-size: 35px;
+    line-height: 35px;
     margin-bottom: 0;
     padding: 0;
     text-align: center;
@@ -124,10 +130,74 @@ h2 {
     cursor:pointer;
     width: 25%;
     height: max-content;
-    margin-top: 10px;
+    margin-top: 13px;
     padding: 0;
     text-align: right;
     padding-right: 20px;
     border: none;
 
+}
+.tagline {
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+/*----------------------- Desktop Styles --------------------------*/
+@media only screen and (min-width:1024px) {
+
+    .container {
+        min-width: 1024px;
+    }
+
+    h1 {
+        font-size: 50px;
+        width: 45%;
+    }
+    h2 {
+        font-size: 85px;
+        line-height: 72px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .tagline {
+        padding-bottom: 200px;
+        padding-top: 60px;
+    }
+    .closebtn {
+        display: none;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+    }
+
+    .sidenav {
+        display: flex;
+        position: static;
+        width: 50%;
+        height: auto;
+        background-color: transparent;
+        overflow: visible;
+        padding: 0;
+        z-index: auto;
+        list-style-type: none;
+        justify-content: space-around;
+        transition: 0s;
+    }
+    .sidenav li {
+        padding: 0;
+        text-decoration: none;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .sidenav li a {
+        font-size: 18px;
+        padding: 0;
+        padding-left: 10px;
+        text-align: left;
+        display: inline;
+    }
 }
