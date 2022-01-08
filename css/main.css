@@ -14,6 +14,11 @@ footer,
 
 }
 
+p {
+    margin: 15px 20px;
+    font-size: 12px;
+}
+
 /*----------------------- Mobile Styles --------------------------*/
 
 .container {
@@ -25,6 +30,9 @@ footer,
     min-width: 320px;
 
 }
+
+/*----------------------- Header Styles --------------------------*/
+
 nav {
     display: flex;
     width: 100%;
@@ -142,6 +150,150 @@ h2 {
     padding-top: 20px;
 }
 
+/*----------------------- Main Styles --------------------------*/
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*----------------------- About Styles --------------------------*/
+
+
+.about-hp-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #254E6B;
+    text-transform: uppercase;
+}
+
+.profile-picture {
+    display: inline-block;
+    width: 45%;
+}
+
+.about-hp-section p {
+    width: 45%;
+    margin: 20px;
+}
+
+.learn-more a {
+    color: #8F2D56;
+    text-decoration: none;
+    font-weight: 700;
+}
+.aboutbtn {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #6B7A40;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px;
+    letter-spacing: 1.5px; 
+    margin: 10px;
+    width: 20%;
+}
+/*----------------------- Skill & Tools Styles --------------------------*/
+
+.skills-hp-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.circle-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    border: none;
+    box-shadow: 1.5px 1.5px  #292929;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+}
+.blue {
+    background-color: #254E6B;
+}
+.green {
+    background-color: #6B7A40;
+}
+.pink {
+    background-color: #8f2056;
+}
+.gray {
+    background-color: #292929;
+}
+.circle:active {
+    box-shadow: 2px #292929;
+}
+
+/*----------------------- Project Styles --------------------------*/
+
+.projects-hp-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color:rgba(115, 115, 115, .47);
+    ;
+}
+.projects-hp-section h3 {
+    color: #292929;
+}
+/*----------------------- Footer Styles --------------------------*/
+footer {
+    width: 100%;
+    padding: 20px 0 5px 0;
+
+}
+footer p {
+    text-align: center;
+  }
+footer a {
+    text-decoration: none;
+    color: #8F2D56;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 10px;
+}
+.footer-nav {
+    text-align: center;
+}
+.copyright {
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 /*----------------------- Desktop Styles --------------------------*/
 @media only screen and (min-width:1024px) {
 
@@ -200,4 +352,41 @@ h2 {
         text-align: left;
         display: inline;
     }
+    h3 {
+        font-size: 45px;
+    }
+    .about-hp-section p {
+        font-size: 20px;
+    }
+    .aboutbtn {
+        font-size: 16px;
+        width: 15%;
+    }
+
+
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 auto;
+    }
+    footer a {
+        font-size: 16px;
+        justify-content: space-between;   
+     }
+    .copyright {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    
+    .circle-container {
+        justify-content: space-between;
+        width: 75%;
+    }
+    .circle {
+        margin: 10px;
+    }
+
 }
