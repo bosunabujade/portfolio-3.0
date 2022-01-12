@@ -33,6 +33,7 @@ p {
 
 /*----------------------- Header Styles --------------------------*/
 
+
 nav {
     display: flex;
     width: 100%;
@@ -263,7 +264,7 @@ h3 {
     margin: 0 auto;
     justify-content: center;
     background-color:rgba(115, 115, 115, .47);
-    ;
+    padding-bottom: 30px;
 }
 .projects-hp-section h3 {
     color: #292929;
@@ -292,6 +293,15 @@ h4 {
     margin-top: 0;
     color: #254E6B;
 }
+.view-more-projects {
+    padding: 15px;
+    background-color: #8f2056;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 
 /*----------------------- Footer Styles --------------------------*/
 footer {
@@ -319,6 +329,56 @@ footer a {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+/*----------------------- Project Page Styles --------------------------*/
+.project-page-section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgba(115, 115, 115, .20);
+    padding-top: 30px;
+}
+
+.project-page-section img {
+    width: 100%;
+}
+
+.project-page-section p {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.project-page-section button {
+    background-color: #6B7A40;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.project-page-section h4 {
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    color: #8f2056;
+}
+
+.project-box {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+}
+.tag {
+    background-color: #254E6B;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
 /*----------------------- Desktop Styles --------------------------*/
 @media only screen and (min-width:1024px) {
 
@@ -424,6 +484,11 @@ footer a {
     }
     .circle {
         margin: 10px;
+    }
+
+
+    .project-box {
+        width: 45%;
     }
 
 }
