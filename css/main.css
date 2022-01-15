@@ -1,6 +1,8 @@
+html {
+    font-size: 20px;
+}
 body {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 20px;
     color: #292929;
     background: white;
     padding: 0;
@@ -17,7 +19,6 @@ footer,
 
 p {
     margin: 15px 20px;
-    font-size: 14px;
 }
 
 
@@ -45,7 +46,7 @@ nav {
 h1 {
     color: #254E6B;
     font-family: "Sigmar One", cursive;
-    font-size: 35px;
+    font-size: 3.25rem;
     margin-left: 10px;
     margin-top: 0;
     width: 70%;
@@ -53,8 +54,8 @@ h1 {
 h2 {
     color: white;
     font-family: "Sigmar One", cursive;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 3.25rem;
+    line-height: 60px;
     margin-bottom: 0;
     padding: 0;
     text-align: center;
@@ -79,7 +80,7 @@ h2 {
 .title {
     color: #8f2056;
     font-family: "Red Hat Display", sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 0;
     padding-top: 0;
@@ -113,7 +114,7 @@ h2 {
 .sidenav li a {
     color: rgb(107,122,64 );
     display: block;
-    font-size: 18px;
+    font-size: 2.75rem;
     font-weight: 700;
     padding: 8px 8px 8px 32px;
     text-align: center;
@@ -128,7 +129,7 @@ h2 {
     background-color: transparent;
     border: none;
     color: #292929;
-    font-size: 36px;
+    font-size: 2.75rem;
     margin-left: 30px;;
     position: absolute;
     right: 25px;
@@ -138,7 +139,7 @@ h2 {
 .hamburger {
     background-color: transparent;
     color: #292929 ;
-    font-size: 30px;
+    font-size: 2.75rem;
     cursor:pointer;
     width: 25%;
     height: max-content;
@@ -150,11 +151,11 @@ h2 {
 
 }
 .tagline {
-    padding-bottom: 80px;
-    padding-top: 20px;
+    padding-bottom: 160px;
+    padding-top: 80px;
 }
 .landing {
-    height: 70px;
+    height: 120px;
 }
 
 /*----------------------- Main Styles --------------------------*/
@@ -180,7 +181,7 @@ main {
 h3 {
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Red Hat Display', sans-serif;
     color: #254E6B;
     text-transform: uppercase;
@@ -195,6 +196,7 @@ h3 {
     width: 90%;
     margin: 20px;
     line-height: 20px;
+    font-size: .6rem;
 }
 
 .learn-more a {
@@ -209,6 +211,7 @@ h3 {
 .learn-more {
     text-align: end;
     width: 100%;
+    font-size: 1.25rem;
 }
 .aboutbtn {
     color: white;
@@ -242,8 +245,8 @@ h3 {
 }
 
 .circle {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     display: inline-block;
     color: white;
@@ -252,7 +255,7 @@ h3 {
     box-shadow: 1.5px 1.5px  #292929;
     text-align: center;
     margin: 5px;
-    font-size: 12px;
+    font-size: 18px;
 }
 .blue {
     background-color: #254E6B;
@@ -312,7 +315,7 @@ h3 {
     width: 100%;
 }
 .project {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 .project-pic {
@@ -322,7 +325,7 @@ h3 {
 h4 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.25rem;
     padding-top: 0;
     padding-bottom: 10px;
     margin-top: 0;
@@ -337,10 +340,10 @@ h4 a {
     color: white;
 }
 .view-more-projects {
-    padding: 14px;
+    padding: 16px;
     background-color: #6B7A40;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -358,7 +361,7 @@ footer a {
     text-decoration: none;
     color: #8F2D56;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
     padding-left: 10px;
@@ -367,8 +370,8 @@ footer a {
     text-align: center;
 }
 .copyright {
-    font-size: 12px;
-    padding-bottom: 0;
+    font-size: .8rem;
+    padding-bottom: 10px;
     margin-bottom: 0;
 }
 
@@ -386,13 +389,13 @@ footer a {
     width: 60%;
 }
 .about p {
-    padding: 20px;
-    font-size: 14px;
+    padding: 30px;
+    font-size: .8rem;
 }
 .about h4,
 .contact h4 {
     width: 100%;
-    font-size: 24px;
+    font-size: 1.25rem;
     color: #8f2056;
 }
 
@@ -421,7 +424,7 @@ form {
 }
 
 label {
-    font-size: 14px;
+    font-size: 1.5rem;
     width: 100%;
     font-weight: 700;
     color: #292929;
@@ -430,12 +433,13 @@ input[type=text],
 input[type=email], 
 textarea {
     width: 100%;
-    padding: 12px;
+    padding: 20px;
     border: 1.5px solid #254E6B;
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-size: 1rem;
 }
 input[type=submit] {
     width: 20%;
@@ -443,6 +447,7 @@ input[type=submit] {
     color: white;
     padding: 10px;
     border: none;
+    font-size: 1.25rem;
 }
 
 input[type=submit]:hover {
@@ -454,7 +459,7 @@ input[type=submit]:hover {
 }
 
 .error-message {
-    font-size: 14px;
+    font-size: 1rem;
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
@@ -468,12 +473,12 @@ input[type=submit]:hover {
     justify-content: center;
 }
 .contact i {
-    font-size: 30px;
+    font-size: 2.5rem;
     color: #254E6B;
 }
 
 .contact p {
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 30px;
 }
 
@@ -518,13 +523,13 @@ input[type=submit]:hover {
 .project-page-section button {
     background-color: #6B7A40;
     border: none;
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
 .project-page-section h4 {
-    font-size: 24px;
+    font-size: 1.25rem;
     padding-bottom: 5px;
     margin-bottom: 0;
     color: #8f2056;
@@ -538,10 +543,11 @@ input[type=submit]:hover {
 }
 .tag {
     background-color: #254E6B;
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: .7rem;
     font-weight: 700;
     color: white;
+    line-height: 95px;
 }
 
 /*----------------------- Desktop Styles --------------------------*/
@@ -552,15 +558,15 @@ input[type=submit]:hover {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 2.5rem;
         width: 45%;
     }
     h2 {
-        font-size: 85px;
+        font-size: 4.25rem;
         line-height: 72px;
     }
     .title {
-        font-size: 40px;
+        font-size: 2rem;
     }
     .tagline {
         padding-bottom: 200px;
@@ -596,7 +602,7 @@ input[type=submit]:hover {
         margin-top: 30px;
     }
     .sidenav li a {
-        font-size: 18px;
+        font-size: .9rem;
         padding: 0;
         padding-left: 10px;
         text-align: left;
@@ -607,13 +613,13 @@ input[type=submit]:hover {
         height: 85px;
     }
     h3 {
-        font-size: 45px;
+        font-size: 2.5rem;
     }
     .about-hp-section p {
-        font-size: 20px;
+        font-size: 1rem;
     }
     .aboutbtn {
-        font-size: 16px;
+        font-size: .8rem;
         width: 15%;
     }
 
@@ -641,7 +647,7 @@ input[type=submit]:hover {
         border: 3px solid #292929;
     }
     h4 {
-        font-size: 18px;
+        font-size: .9rem;
     }
 
 
@@ -654,11 +660,11 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
     footer a {
-        font-size: 16px;
+        font-size: .8rem;
         justify-content: space-between;   
      }
     .copyright {
-        font-size: 14px;
+        font-size: .7rem;
         padding-top: 10px;
         padding-bottom: 0;
     }
@@ -669,6 +675,9 @@ input[type=submit]:hover {
     }
     .circle {
         margin: 10px;
+        width: 80px;
+        height: 80px;
+        font-size: .6rem;
     }
 
     .about img {
@@ -677,19 +686,31 @@ input[type=submit]:hover {
     }
 
     .about p {
-        font-size: 20px;
+        font-size: 1rem;
         width: 40%;
         align-content: center;
     }
 
     .contact h4,
     .about h4 {
-        font-size: 35px;
+        font-size: 1.75rem;
     }
     .contact h4 {
         margin-top: 20px;
     }
+    input[type=text], 
+    input[type=email], 
+    textarea {
+        font-size: .9rem;
+    }
 
+    label {
+        font-size: 1rem;
+    }
+
+    input[type=submit] {
+        font-size: .8rem;
+    }
 
     form {
         width: 40%;
@@ -702,5 +723,10 @@ input[type=submit]:hover {
     .project-box {
         width: 45%;
     }
-
+    .project-page-section button {
+        font-size: .7rem;
+    }
+    .tag {
+        line-height: 20px;
+    }
 }
