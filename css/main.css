@@ -5,6 +5,7 @@ body {
     background: white;
     padding: 0;
     margin: 0;
+
   }
 
 header,
@@ -19,6 +20,7 @@ p {
     font-size: 14px;
 }
 
+
 /*----------------------- Mobile Styles --------------------------*/
 
 .container {
@@ -26,13 +28,14 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 auto;
-    min-width: 320px;
-    max-width: 425px;
+    margin: 0;
 }
 
 /*----------------------- Header Styles --------------------------*/
 
+header {
+    width: 100%;
+}
 
 nav {
     display: flex;
