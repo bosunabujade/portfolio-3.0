@@ -27,7 +27,7 @@ p {
     flex-flow: row wrap;
     justify-content: center;
     margin: 0 auto;
-    min-width: 320px;
+    max-width: 320px;
 
 }
 
