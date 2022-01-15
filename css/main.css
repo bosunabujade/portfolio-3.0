@@ -16,7 +16,7 @@ footer,
 
 p {
     margin: 15px 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /*----------------------- Mobile Styles --------------------------*/
@@ -150,6 +150,9 @@ h2 {
     padding-bottom: 80px;
     padding-top: 20px;
 }
+.landing {
+    height: 70px;
+}
 
 /*----------------------- Main Styles --------------------------*/
 
@@ -182,18 +185,27 @@ h3 {
 
 .profile-picture {
     display: inline-block;
-    width: 45%;
+    width: 50%;
 }
 
 .about-hp-section p {
-    width: 45%;
+    width: 90%;
     margin: 20px;
+    line-height: 20px;
 }
 
 .learn-more a {
     color: #8F2D56;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+}
+.learn-more {
+    text-align: end;
+    width: 100%;
 }
 .aboutbtn {
     color: white;
@@ -251,8 +263,28 @@ h3 {
 .gray {
     background-color: #292929;
 }
-.circle:active {
-    box-shadow: 2px #292929;
+.blue:hover {
+    border-color: #254E6B;
+    box-shadow: 0 0 15px 0 #254E6B
+    inset, 0 0 10px 4px #254E6B;
+    color: black;
+}
+.green:hover {
+    border-color: #6B7A40;
+    box-shadow: 0 0 15px 0 #6B7A40
+    inset, 0 0 10px 4px #6B7A40;
+    color: black;
+}
+.pink:hover {
+    border-color: #8f2056;
+    box-shadow: 0 0 15px 0 #8f2056
+    inset, 0 0 10px 4px #8f2056;
+    color: black;
+}
+.gray:hover {
+    border-color: #292929;
+    box-shadow: 0 0 15px 0 #292929
+    inset, 0 0 10px 4px #292929;
 }
 
 /*----------------------- Project Styles --------------------------*/
@@ -291,16 +323,23 @@ h4 {
     padding-top: 0;
     padding-bottom: 10px;
     margin-top: 0;
+}
+h4 a {
+    text-decoration: none;
     color: #254E6B;
 }
-.view-more-projects {
-    padding: 15px;
-    background-color: #8f2056;
+
+.view-more-projects a {
+    text-decoration: none;
     color: white;
+}
+.view-more-projects {
+    padding: 14px;
+    background-color: #6B7A40;
     border: none;
     font-size: 16px;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 /*----------------------- Footer Styles --------------------------*/
@@ -329,6 +368,119 @@ footer a {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
+/*----------------------- About Page Styles --------------------------*/
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+}
+.about img {
+    width: 60%;
+}
+.about p {
+    padding: 20px;
+    font-size: 14px;
+}
+.about h4,
+.contact h4 {
+    width: 100%;
+    font-size: 24px;
+    color: #8f2056;
+}
+
+/*------------ About Page Contact Styles -------------*/
+
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.contact-form {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+form {
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 14px;
+    width: 100%;
+    font-weight: 700;
+    color: #292929;
+}
+input[type=text], 
+input[type=email], 
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #254E6B;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #254E6B;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    border-color: #254E6B;
+    box-shadow: 0 0 10px 0 #254E6B
+    inset, 0 0 10px 4px #254E6B;
+    color: #292929;
+    background-color: white;
+}
+
+.error-message {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.contact-icon {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.contact i {
+    font-size: 30px;
+    color: #254E6B;
+}
+
+.contact p {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.contact a {
+    width: 20%;
+    margin: 15px 20px;;
+    text-align: center;
+}
+
+
 /*----------------------- Project Page Styles --------------------------*/
 .project-page-section{
     display: flex;
@@ -344,15 +496,25 @@ footer a {
     width: 100%;
 }
 
-.project-page-section p {
+.tag-section {
     margin: 15px 0;
     padding: 0;
+}
+
+.project-description {
+    margin: 30px 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.project-page-section a {
+    color: white;
+    text-decoration: none;
 }
 
 .project-page-section button {
     background-color: #6B7A40;
     border: none;
-    color: white;
     padding: 10px;
     font-size: 14px;
     font-weight: 700;
@@ -437,6 +599,10 @@ footer a {
         text-align: left;
         display: inline;
     }
+
+    .landing {
+        height: 85px;
+    }
     h3 {
         font-size: 45px;
     }
@@ -447,6 +613,22 @@ footer a {
         font-size: 16px;
         width: 15%;
     }
+
+    .profile-picture {
+        width: 45%;
+    }
+    
+    .about-hp-section p {
+        width: 45%;
+        line-height: 35px;
+        display: flex;
+        flex-flow: wrap;
+        align-content: center;
+        justify-content: end;
+
+    }
+
+ 
 
     .project {
         width: 30%;
@@ -486,6 +668,33 @@ footer a {
         margin: 10px;
     }
 
+    .about img {
+        width: 45%;
+        height: auto;
+    }
+
+    .about p {
+        font-size: 20px;
+        width: 40%;
+        align-content: center;
+    }
+
+    .contact h4,
+    .about h4 {
+        font-size: 35px;
+    }
+    .contact h4 {
+        margin-top: 20px;
+    }
+
+
+    form {
+        width: 40%;
+    }
+
+    input[type=submit] {
+        width: 15%
+    }
 
     .project-box {
         width: 45%;
