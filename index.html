@@ -28,8 +28,8 @@
                       </button>
                       <li><a href="./index.html">Home</a></li>
                       <li><a href="./about.html">About Me</a></li>
-                      <li><a href="./projects.html">Projects</a></li>
-                      <li><a href="about.html#contact">Contact</a></li>
+                      <li><a href="./index.html#projects">Projects</a></li>
+                      <li><a href="./index.html#contact">Contact</a></li>
                   </ul>
               </nav>
               <div class="tagline">
@@ -72,36 +72,133 @@
                         <button class="circle green">Slack</button>
                   </div>
               </section>
-              <section class="projects-hp-section">
+              <section class="projects-section" id="projects">
                   <h3>Projects</h3>
-                  <div class="slideshow-container"> 
 
-                    <div class="project">
-                        <a href="./projects.html"><img class="project-pic" src="./img/sticky-note.png"></a>
-                        <h4 class="text"><a href="./projects.html">Sticky Note App</a></h4>
-                      </div>
+                  <div class="project-box">
+                    <h4>Sticky Note App</h4>
+                    <img class="project-img" src="./img/sticky-note.png">
+                    <p class="tag-section">  
+                        <span class="tag">React</span>
+                        <span class="tag">ES6</span>
+                        <span class="tag">JSX</span>
+                        <span class="tag">CodeSandbox</span>
+                    </p>
+                    <p class="project-description">This is a Greenfield project that lets users create sticky notes, that allows users to keep track of their to-do items while keeping the classic sticky note style. Here they can add, delete, and search through their notes.</p>
+                    <button><a href="https://codesandbox.io/s/sticky-note-ui-um59b?resolutionWidth=320&resolutionHeight=675" target="_blank">View CodeSandbox</a></button>
+                    <button><a href="https://um59b.csb.app/" target="_blank">View Live Site</a></button>
+                </div>
 
-                      <div class="project">
-                        <a href="./projects.html"><img class="project-pic" src="./img/github-repo-galary.png"></a>
-                        <h4><a href="./projects.html">GitHub Repo Gallery</a></h4>
-                      </div>
-                    
-                      <div class="project">
-                        <a href="./projects.html"><img class="project-pic" src="./img/guess-the-word.png"></a>
-                        <h4><a href="./projects.html">Guess The Word</a></h4>
-                      </div>
-                  </div>
-                  <button class="view-more-projects"><a href="./projects.html">View More Projects</a></button>
+                <div class="project-box">
+                    <h4>Name Tag Generator</h4>
+                    <img class="project-img" src="./img/name-tag.png">
+                    <p class="tag-section"> 
+                        <span class="tag">React</span>
+                        <span class="tag">ES6</span>
+                        <span class="tag">JSX</span>
+                        <span class="tag">CodeSandbox</span>
+                    </p>
+                    <p class="project-description">This is a name tag generator that allows users to create bulk name tags using functional components and ES6 modules.</p>
+                    <button><a href="https://codesandbox.io/s/l5-pass-props-to-your-functional-component-bosun-lr8ub?file=/src/NameTag.js" target="_blank">View CodeSandbox</a></button>
+                    <button><a href="https://lr8ub.csb.app/" target="_blank">View Live Site</a></button>
+                </div>
+
+                <div class="project-box">
+                    <h4>GitHub Repo Gallery</h4>
+                    <img class="project-img" src="./img/github-repo-galary.png">
+                    <p class="tag-section"> 
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">GitHub</span>
+                    </p>
+                    <p class="project-description">This project uses my GitHub profile to pull data to create a gallery of my repositories. This allows users to click on my repositories to see more details on them.</p>
+                    <button><a href="https://github.com/bosunabujade/github-repo-gallery/deployments" target="_blank">View GitHub</a></button>
+                    <button><a href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank">View Live Site</a></button>
+                </div>
+
+                <div class="project-box">
+                    <h4>Guess the Word</h4>
+                    <img  class="project-img" src="./img/guess-the-word.png">
+                    <p class="tag-section"> 
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">GitHub</span>
+                    </p>
+                    <p class="project-description">This is a game where the player gets to guess a letter in hopes of revealing the hidden word before the guesses run out. (Hint: you only get 8 guesses!)</p>
+                    <button><a href="https://github.com/bosunabujade/guess-the-word" target="_blank">View GitHub</a></button>
+                    <button><a href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank">View Live Site</a></button>
+                </div>
+
+                <div class="project-box">
+                    <h4>Unplugged Responsive Website</h4>
+                    <img  class="project-img" src="./img/unpluged.png">
+                    <p class="tag-section"> 
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Photoshop</span>
+                    </p>
+                    <p class="project-description">This is a three-page responsive website created from a design comp that adapts to mobile, tablet, and desktop screens.</p>
+                    <button><a href="https://github.com/bosunabujade/responsive-website" target="_blank">View GitHub</a></button>
+                    <button><a href="https://bosunabujade.github.io/responsive-website/" target="_blank">View Live Site</a></button>
+                </div>
+
+                <div class="project-box">
+                    <h4>Three Column Preview Card Componet</h4>
+                    <img class="project-img" src="./img/three-card-comp.png">
+                    <p class="tag-section"> 
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">GitHub</span>
+                    </p>
+                    <p class="project-description">This is a three-column preview card that I created from a design comp that adapts to mobile and desktop screens.</p>
+                    <button><a href="https://github.com/bosunabujade/3-column-preview-card-componet" target="_blank">View GitHub</a></button>
+                    <button><a href="https://bosunabujade.github.io/3-column-preview-card-componet/" target="_blank">View Live Site</a></button>
+                </div>
               </section>
+              <section class="contact" id="contact">
+                <h3>Lets Connect</h3>
+                <div class="contact-form">
+                    <form onsubmit="return false">
+                  
+                      <label for="name">First Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your name.." onkeyup='validateName()'>
+                      <span class='error-message' id="name-error"></span>
+                  
+                      <label for="email">Email</label>
+                      <input type="email" placeholder="Your email..." id="email" onkeyup='validateEmail()'>
+                      <span class="error-message" id="email-error"></span>
+                  
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="Your message.." onkeyup='vaildateMessage()'></textarea>
+                      <span class='error-message' id="submit-error"></span>
+                
+                      <input onclick="validateForm()" type="submit" value="Submit">
+                      <span class='error-message' id='submit-error'></span>
+                  
+                    </form>
+                  </div>
+
+                <p>Ph. 401-688-7101</p>
+                <p>Email: bosunabujade@gmail.com</p>
+                <div class="contact-icon">
+                    <a href="https://www.linkedin.com/in/olatunbosun-abujade-3b24b2211/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/bosunabujade" target="_blank"><i class="fa fa-github-square"></i></a>
+                </div>
+            </section>
           </main>
           <footer>
             <div>
                 <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./index.html#projects">Portfolio</a>
+                    <a href="./index.html#contact">Contact</a>
                     <a href="https://www.linkedin.com/in/olatunbosun-abujade-3b24b2211/" target="_blank">LinkedIn</a>
                     <a href="https://github.com/bosunabujade" target="_blank">github</a>
-                    <a href="./about.html">About</a>
-                    <a href="./projects.html">Portfolio</a>
-                    <a href="./contact.html">Contact</a>
                 </div>
         
                 <p class="copyright">Copyright 2021 | Bosun Abujade</p>

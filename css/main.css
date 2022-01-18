@@ -65,15 +65,21 @@ h2 {
     content: "Olatunbosun Abujade";
     animation: nameChange infinite 6s;
     animation-delay: 5s;
+    -webkit-content: "Olatunbosun Abujade";
+    -webkit-animation: nameChange infinite 6s;
+    -webkit-animation-delay: 5s;
 }
 @keyframes nameChange {
     0% {
+        -webkit-content: "Olatunbosun Abujade" ;
         content: "Olatunbosun Abujade";
     }
     50% {
+        -webkit-content: "Bosun Abujade" ;
         content: "Bosun Abujade";
     }
     100% {
+        -webkit-content: "Ola Abujade" ;
         content: "Ola Abujade";
     }
 }
@@ -102,13 +108,15 @@ h2 {
     transition: .5s;
     width: 0;
     z-index: 1;
+    display: flex;
+    align-content: center;
+    flex-flow: wrap;
 
 }
 .sidenav li {
     margin: auto;
     padding: 30px;
-    align-content: center;
-
+    width: 100%;
 }
 
 .sidenav li a {
@@ -194,9 +202,9 @@ h3 {
 
 .about-hp-section p {
     width: 90%;
-    margin: 20px;
-    line-height: 20px;
-    font-size: .6rem;
+    padding: 20px;
+    line-height: 30px;
+    font-size: .9rem;
 }
 
 .learn-more a {
@@ -234,6 +242,7 @@ h3 {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .circle-container {
@@ -294,112 +303,68 @@ h3 {
 }
 
 /*----------------------- Project Styles --------------------------*/
-
-.projects-hp-section {
+.projects-section{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    background-color:rgba(115, 115, 115, .47);
+    background-color: rgba(115, 115, 115, .20);
+    padding-top: 30px;
     padding-bottom: 30px;
 }
-.projects-hp-section h3 {
-    color: #292929;
-}
 
-.slideshow-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
+.projects-section h3 {
+    padding: 0;
+    margin: 0;
 }
-.project {
+.project-box {
     width: 80%;
     margin: 0 auto;
-}
-.project-pic {
-    width: 100%;
-    border: 2px solid #292929;
-}
-h4 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.25rem;
-    padding-top: 0;
-    padding-bottom: 10px;
-    margin-top: 0;
-}
-h4 a {
-    text-decoration: none;
-    color: #254E6B;
+    justify-content: center;
+    padding: 20px;
 }
 
-.view-more-projects a {
-    text-decoration: none;
-    color: white;
+.project-img {
+    width: 100%;
+    border: 2.5px solid #292929;
 }
-.view-more-projects {
-    padding: 16px;
+
+.tag-section {
+    margin: 10px 0 5px 0;
+    padding: 0;
+}
+.tag {
+    background-color: #254E6B;
+    padding: 15px;
+    font-size: .7rem;
+    font-weight: 700;
+    color: white;
+    line-height: 95px;
+}
+
+.project-description {
+    margin: 30px 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.projects-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.projects-section button {
     background-color: #6B7A40;
     border: none;
-    font-size: 1rem;
+    padding: 15px;
+    font-size: 1.75rem;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
-/*----------------------- Footer Styles --------------------------*/
-footer {
-    width: 100%;
-    padding: 20px 0 5px 0;
 
-}
-footer p {
-    text-align: center;
-  }
-footer a {
-    text-decoration: none;
-    color: #8F2D56;
-    font-weight: 700;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-    padding-left: 10px;
-}
-.footer-nav {
-    text-align: center;
-}
-.copyright {
-    font-size: .8rem;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-}
 
-/*----------------------- About Page Styles --------------------------*/
-
-.about {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    padding-top: 30px;
-}
-.about img {
-    width: 60%;
-}
-.about p {
-    padding: 30px;
-    font-size: .8rem;
-}
-.about h4,
-.contact h4 {
-    width: 100%;
-    font-size: 1.25rem;
-    color: #8f2056;
-}
-
-/*------------ About Page Contact Styles -------------*/
+/*------------ Contact Styles -------------*/
 
 .contact {
     display: flex;
@@ -409,6 +374,11 @@ footer a {
     justify-content: center;
     padding-top: 30px;
     margin: 0 auto;
+}
+
+.contact h3 {
+    color: #292929;
+    margin-bottom: 20px;
 }
 .contact-form {
     width: 100%;
@@ -473,7 +443,7 @@ input[type=submit]:hover {
     justify-content: center;
 }
 .contact i {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     color: #254E6B;
 }
 
@@ -488,67 +458,52 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+/*----------------------- Footer Styles --------------------------*/
+footer {
+    width: 100%;
+    padding: 20px 0 5px 0;
 
-/*----------------------- Project Page Styles --------------------------*/
-.project-page-section{
+}
+footer p {
+    text-align: center;
+  }
+footer a {
+    text-decoration: none;
+    color: #8F2D56;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 15px;
+}
+.footer-nav {
+    text-align: center;
+}
+.copyright {
+    font-size: .8rem;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+/*----------------------- About Page Styles --------------------------*/
+
+.about {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    background-color: rgba(115, 115, 115, .20);
     padding-top: 30px;
+    padding-bottom: 40px;
+}
+.about img {
+    width: 60%;
+}
+.about p {
+    padding: 30px;
+    font-size: .8rem;
 }
 
-.project-page-section img {
-    width: 100%;
-}
-
-.tag-section {
-    margin: 15px 0;
-    padding: 0;
-}
-
-.project-description {
-    margin: 30px 0;
-    padding: 0;
-    font-size: 15px;
-}
-
-.project-page-section a {
-    color: white;
-    text-decoration: none;
-}
-
-.project-page-section button {
-    background-color: #6B7A40;
-    border: none;
-    padding: 15px;
-    font-size: 1.75rem;
-    font-weight: 700;
-}
-
-.project-page-section h4 {
-    font-size: 1.25rem;
-    padding-bottom: 5px;
-    margin-bottom: 0;
-    color: #8f2056;
-}
-
-.project-box {
-    width: 90%;
-    margin: 0 auto;
-    justify-content: center;
-    padding: 20px;
-}
-.tag {
-    background-color: #254E6B;
-    padding: 15px;
-    font-size: .7rem;
-    font-weight: 700;
-    color: white;
-    line-height: 95px;
-}
 
 /*----------------------- Desktop Styles --------------------------*/
 @media only screen and (min-width:1024px) {
@@ -585,6 +540,7 @@ input[type=submit]:hover {
     .sidenav {
         display: flex;
         position: static;
+        flex-flow: nowrap;
         width: 50%;
         height: auto;
         background-color: transparent;
@@ -637,15 +593,6 @@ input[type=submit]:hover {
 
     }
 
- 
-
-    .project {
-        width: 30%;
-    }
-    .project-pic {
-        width: 100%;
-        border: 3px solid #292929;
-    }
     h4 {
         font-size: .9rem;
     }
@@ -721,9 +668,9 @@ input[type=submit]:hover {
     }
 
     .project-box {
-        width: 45%;
+        width: 30%;
     }
-    .project-page-section button {
+    .projects-section button {
         font-size: .7rem;
     }
     .tag {
