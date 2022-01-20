@@ -203,8 +203,7 @@ h3 {
 .about-hp-section p {
     width: 90%;
     padding: 20px;
-    line-height: 30px;
-    font-size: .9rem;
+    font-size: 1.5rem;
 }
 
 .learn-more a {
@@ -599,6 +598,7 @@ footer a {
 
 
 
+    
 
     .footer-nav {
         display: flex;
