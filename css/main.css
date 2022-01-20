@@ -44,12 +44,15 @@ nav {
 
 }
 h1 {
-    color: #254E6B;
     font-family: "Sigmar One", cursive;
     font-size: 3.25rem;
     margin-left: 10px;
     margin-top: 0;
     width: 70%;
+}
+h1 a {
+    text-decoration: none;
+    color: #254E6B;
 }
 h2 {
     color: white;
@@ -322,6 +325,12 @@ h3 {
     margin: 0 auto;
     justify-content: center;
     padding: 20px;
+}
+
+h4 {
+    color:#8f2056;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .project-img {
@@ -638,13 +647,7 @@ footer a {
         align-content: center;
     }
 
-    .contact h4,
-    .about h4 {
-        font-size: 1.75rem;
-    }
-    .contact h4 {
-        margin-top: 20px;
-    }
+
     input[type=text], 
     input[type=email], 
     textarea {
