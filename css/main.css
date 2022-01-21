@@ -381,16 +381,13 @@ h4 {
     font-size: 1rem;
 }
 
-.projects-section a {
+.view-button {
     color: white;
     text-decoration: none;
-}
-
-.projects-section button {
     background-color: #6B7A40;
     border: none;
     padding: 15px;
-    font-size: 1.75rem;
+    font-size: .8rem;
     font-weight: 700;
 }
 
