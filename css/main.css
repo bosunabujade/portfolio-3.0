@@ -73,24 +73,18 @@ h2 {
     content: "Olatunbosun Abujade";
     animation: nameChange infinite 6s;
     animation-delay: 5s;
-    -webkit-content: "Olatunbosun Abujade";
-    -webkit-animation: nameChange infinite 6s;
-    -webkit-animation-delay: 5s;
 }
 
 @keyframes nameChange {
     0% {
-        -webkit-content: "Olatunbosun Abujade";
         content: "Olatunbosun Abujade";
     }
 
     50% {
-        -webkit-content: "Bosun Abujade";
         content: "Bosun Abujade";
     }
 
     100% {
-        -webkit-content: "Ola Abujade";
         content: "Ola Abujade";
     }
 }
