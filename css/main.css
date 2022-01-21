@@ -1,6 +1,7 @@
 html {
     font-size: 20px;
 }
+
 body {
     font-family: 'Red Hat Display', sans-serif;
     color: #292929;
@@ -8,12 +9,12 @@ body {
     padding: 0;
     margin: 0;
 
-  }
+}
 
 header,
 footer,
 .background-green {
-    background-color: rgba(107,122,64, .47 );
+    background-color: rgba(107, 122, 64, .47);
 
 }
 
@@ -43,6 +44,7 @@ nav {
     width: 100%;
 
 }
+
 h1 {
     font-family: "Sigmar One", cursive;
     font-size: 3.25rem;
@@ -50,10 +52,12 @@ h1 {
     margin-top: 0;
     width: 70%;
 }
+
 h1 a {
     text-decoration: none;
     color: #254E6B;
 }
+
 h2 {
     color: white;
     font-family: "Sigmar One", cursive;
@@ -64,6 +68,7 @@ h2 {
     text-align: center;
     text-shadow: 2px 2px rgb(56, 56, 56);
 }
+
 .name-change::before {
     content: "Olatunbosun Abujade";
     animation: nameChange infinite 6s;
@@ -72,20 +77,24 @@ h2 {
     -webkit-animation: nameChange infinite 6s;
     -webkit-animation-delay: 5s;
 }
+
 @keyframes nameChange {
     0% {
-        -webkit-content: "Olatunbosun Abujade" ;
+        -webkit-content: "Olatunbosun Abujade";
         content: "Olatunbosun Abujade";
     }
+
     50% {
-        -webkit-content: "Bosun Abujade" ;
+        -webkit-content: "Bosun Abujade";
         content: "Bosun Abujade";
     }
+
     100% {
-        -webkit-content: "Ola Abujade" ;
+        -webkit-content: "Ola Abujade";
         content: "Ola Abujade";
     }
 }
+
 .title {
     color: #8f2056;
     font-family: "Red Hat Display", sans-serif;
@@ -94,7 +103,7 @@ h2 {
     margin-top: 0;
     padding-top: 0;
     text-align: center;
-    text-shadow: 1px 1px rgb(56, 56,56);
+    text-shadow: 1px 1px rgb(56, 56, 56);
     text-transform: uppercase;
 }
 
@@ -116,6 +125,7 @@ h2 {
     flex-flow: wrap;
 
 }
+
 .sidenav li {
     margin: auto;
     padding: 30px;
@@ -123,7 +133,7 @@ h2 {
 }
 
 .sidenav li a {
-    color: rgb(107,122,64 );
+    color: rgb(107, 122, 64);
     display: block;
     font-size: 2.75rem;
     font-weight: 700;
@@ -133,25 +143,29 @@ h2 {
     text-transform: uppercase;
     transition: .3s;
 }
+
 .sidenav li a:hover {
     color: #8f2056;
 }
+
 .sidenav .closebtn {
     background-color: transparent;
     border: none;
     color: #292929;
     font-size: 2.75rem;
-    margin-left: 30px;;
+    margin-left: 30px;
+    ;
     position: absolute;
     right: 25px;
     top: 0;
 
 }
+
 .hamburger {
     background-color: transparent;
-    color: #292929 ;
+    color: #292929;
     font-size: 2.75rem;
-    cursor:pointer;
+    cursor: pointer;
     width: 25%;
     height: max-content;
     margin-top: 13px;
@@ -161,10 +175,12 @@ h2 {
     border: none;
 
 }
+
 .tagline {
     padding-bottom: 160px;
     padding-top: 80px;
 }
+
 .landing {
     height: 120px;
 }
@@ -218,11 +234,13 @@ h3 {
     flex-flow: wrap;
     justify-content: end;
 }
+
 .learn-more {
     text-align: end;
     width: 100%;
     font-size: 1.25rem;
 }
+
 .aboutbtn {
     color: white;
     font-family: 'Red Hat Display', sans-serif;
@@ -232,10 +250,11 @@ h3 {
     font-weight: 700;
     font-size: 12px;
     padding: 5px;
-    letter-spacing: 1.5px; 
+    letter-spacing: 1.5px;
     margin: 10px;
     width: 20%;
 }
+
 /*----------------------- Skill & Tools Styles --------------------------*/
 
 .skills-hp-section {
@@ -263,49 +282,53 @@ h3 {
     color: white;
     font-weight: 700;
     border: none;
-    box-shadow: 1.5px 1.5px  #292929;
+    box-shadow: 1.5px 1.5px #292929;
     text-align: center;
     margin: 5px;
     font-size: 18px;
 }
+
 .blue {
     background-color: #254E6B;
 }
+
 .green {
     background-color: #6B7A40;
 }
+
 .pink {
     background-color: #8f2056;
 }
+
 .gray {
     background-color: #292929;
 }
+
 .blue:hover {
     border-color: #254E6B;
-    box-shadow: 0 0 15px 0 #254E6B
-    inset, 0 0 10px 4px #254E6B;
+    box-shadow: 0 0 15px 0 #254E6B inset, 0 0 10px 4px #254E6B;
     color: black;
 }
+
 .green:hover {
     border-color: #6B7A40;
-    box-shadow: 0 0 15px 0 #6B7A40
-    inset, 0 0 10px 4px #6B7A40;
+    box-shadow: 0 0 15px 0 #6B7A40 inset, 0 0 10px 4px #6B7A40;
     color: black;
 }
+
 .pink:hover {
     border-color: #8f2056;
-    box-shadow: 0 0 15px 0 #8f2056
-    inset, 0 0 10px 4px #8f2056;
+    box-shadow: 0 0 15px 0 #8f2056 inset, 0 0 10px 4px #8f2056;
     color: black;
 }
+
 .gray:hover {
     border-color: #292929;
-    box-shadow: 0 0 15px 0 #292929
-    inset, 0 0 10px 4px #292929;
+    box-shadow: 0 0 15px 0 #292929 inset, 0 0 10px 4px #292929;
 }
 
 /*----------------------- Project Styles --------------------------*/
-.projects-section{
+.projects-section {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -320,6 +343,7 @@ h3 {
     padding: 0;
     margin: 0;
 }
+
 .project-box {
     width: 80%;
     margin: 0 auto;
@@ -328,7 +352,7 @@ h3 {
 }
 
 h4 {
-    color:#8f2056;
+    color: #8f2056;
     font-size: 1rem;
     text-align: center;
 }
@@ -342,6 +366,7 @@ h4 {
     margin: 10px 0 5px 0;
     padding: 0;
 }
+
 .tag {
     background-color: #254E6B;
     padding: 15px;
@@ -388,11 +413,13 @@ h4 {
     color: #292929;
     margin-bottom: 20px;
 }
+
 .contact-form {
     width: 100%;
     justify-content: center;
     margin: 0 auto;
 }
+
 form {
     width: 80%;
     display: flex;
@@ -407,8 +434,9 @@ label {
     font-weight: 700;
     color: #292929;
 }
-input[type=text], 
-input[type=email], 
+
+input[type=text],
+input[type=email],
 textarea {
     width: 100%;
     padding: 20px;
@@ -419,6 +447,7 @@ textarea {
     resize: vertical;
     font-size: 1rem;
 }
+
 input[type=submit] {
     width: 20%;
     background-color: #254E6B;
@@ -430,8 +459,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     border-color: #254E6B;
-    box-shadow: 0 0 10px 0 #254E6B
-    inset, 0 0 10px 4px #254E6B;
+    box-shadow: 0 0 10px 0 #254E6B inset, 0 0 10px 4px #254E6B;
     color: #292929;
     background-color: white;
 }
@@ -450,19 +478,25 @@ input[type=submit]:hover {
     width: 100%;
     justify-content: center;
 }
+
 .contact i {
     font-size: 2.75rem;
     color: #254E6B;
 }
 
-.contact p {
+.contact-info {
     font-size: 1rem;
     margin-top: 30px;
+    width: 30%;
+    text-decoration: none;
+    color: #292929;
+    text-align: center;
 }
 
-.contact a {
+.contact-icon a {
     width: 20%;
-    margin: 15px 20px;;
+    margin: 15px 20px;
+    ;
     text-align: center;
 }
 
@@ -472,9 +506,11 @@ footer {
     padding: 20px 0 5px 0;
 
 }
+
 footer p {
     text-align: center;
-  }
+}
+
 footer a {
     text-decoration: none;
     color: #8F2D56;
@@ -484,9 +520,11 @@ footer a {
     text-align: center;
     padding-left: 15px;
 }
+
 .footer-nav {
     text-align: center;
 }
+
 .copyright {
     font-size: .8rem;
     padding-bottom: 10px;
@@ -504,9 +542,11 @@ footer a {
     padding-top: 30px;
     padding-bottom: 40px;
 }
+
 .about img {
     width: 60%;
 }
+
 .about p {
     padding: 30px;
     font-size: .8rem;
@@ -520,27 +560,34 @@ footer a {
         min-width: 1024px;
     }
 
+    /*--------- Desktop Header Styles --------------------------*/
     h1 {
         font-size: 2.5rem;
         width: 45%;
     }
+
     h2 {
         font-size: 4.25rem;
         line-height: 72px;
     }
+
     .title {
         font-size: 2rem;
     }
+
     .tagline {
         padding-bottom: 200px;
         padding-top: 60px;
     }
+
     .closebtn {
         display: none;
     }
+
     .hamburger {
         display: none;
     }
+
     nav {
         justify-content: space-between;
     }
@@ -559,12 +606,14 @@ footer a {
         justify-content: space-around;
         transition: 0s;
     }
+
     .sidenav li {
         padding: 0;
         text-decoration: none;
         margin: 0;
         margin-top: 30px;
     }
+
     .sidenav li a {
         font-size: .9rem;
         padding: 0;
@@ -576,12 +625,16 @@ footer a {
     .landing {
         height: 85px;
     }
+
+    /*-------- Desktop About Section Styles --------*/
     h3 {
         font-size: 2.5rem;
     }
+
     .about-hp-section p {
         font-size: 1rem;
     }
+
     .aboutbtn {
         font-size: .8rem;
         width: 15%;
@@ -590,7 +643,7 @@ footer a {
     .profile-picture {
         width: 45%;
     }
-    
+
     .about-hp-section p {
         width: 45%;
         line-height: 35px;
@@ -601,34 +654,12 @@ footer a {
 
     }
 
-    h4 {
-        font-size: .9rem;
-    }
-
-
-
-    
-
-    .footer-nav {
-        display: flex;
-        justify-content: space-around;
-        width: 50%;
-        margin: 0 auto;
-    }
-    footer a {
-        font-size: .8rem;
-        justify-content: space-between;   
-     }
-    .copyright {
-        font-size: .7rem;
-        padding-top: 10px;
-        padding-bottom: 0;
-    }
-    
+    /*-------- Desktop Skills Styles --------*/
     .circle-container {
         justify-content: space-between;
         width: 75%;
     }
+
     .circle {
         margin: 10px;
         width: 80px;
@@ -636,20 +667,26 @@ footer a {
         font-size: .6rem;
     }
 
-    .about img {
-        width: 45%;
-        height: auto;
+    /*-------- Desktop Projects Styles --------*/
+    h4 {
+        font-size: .9rem;
     }
 
-    .about p {
-        font-size: 1rem;
-        width: 40%;
-        align-content: center;
+    .project-box {
+        width: 30%;
     }
 
+    .projects-section button {
+        font-size: .7rem;
+    }
 
-    input[type=text], 
-    input[type=email], 
+    .tag {
+        line-height: 20px;
+    }
+
+    /*-------- Desktop Contact Styles --------*/
+    input[type=text],
+    input[type=email],
     textarea {
         font-size: .9rem;
     }
@@ -670,13 +707,39 @@ footer a {
         width: 15%
     }
 
-    .project-box {
-        width: 30%;
+    /*-------- Desktop Footer Styles --------*/
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 auto;
     }
-    .projects-section button {
+
+    footer a {
+        font-size: .8rem;
+        justify-content: space-between;
+    }
+
+    .copyright {
         font-size: .7rem;
+        padding-top: 10px;
+        padding-bottom: 0;
     }
-    .tag {
-        line-height: 20px;
+
+    /*-------- Desktop About Page Styles --------*/
+
+
+    .about img {
+        width: 45%;
+        height: auto;
     }
+
+    .about p {
+        font-size: 1rem;
+        width: 40%;
+        align-content: center;
+    }
+
+
 }
