@@ -218,6 +218,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+strong {
+    width: 100%;
+}
+
 .learn-more a {
     color: #8F2D56;
     text-decoration: none;
@@ -623,10 +627,6 @@ footer a {
 
     .about-hp-section p {
         font-size: 1rem;
-    }
-
-    strong {
-        width: 100%;
     }
 
     .aboutbtn {
