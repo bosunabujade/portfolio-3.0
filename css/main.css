@@ -218,7 +218,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-strong {
+p strong {
     width: 100%;
 }
 
@@ -478,13 +478,20 @@ input[type=submit]:hover {
     color: #254E6B;
 }
 
+.contact-info-sect {
+    width: 60%;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+}
+
 .contact-info {
     font-size: 1rem;
     margin-top: 30px;
-    width: 30%;
     text-decoration: none;
     color: #292929;
     text-align: center;
+    cursor: pointer;
 }
 
 .contact-icon a {
