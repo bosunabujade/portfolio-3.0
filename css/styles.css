@@ -12,6 +12,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     overflow-x: clip;
+    max-width: 450px;
     padding: 0;
 }
 
@@ -567,7 +568,6 @@ input[type=submit] {
     letter-spacing: 2px;
     padding: 10px 25px;
     text-transform: uppercase;
-    width: 60%;
 }
 
 input[type=submit]:hover {
@@ -780,6 +780,11 @@ footer p {
 
 
 @media only screen and (min-width:1024px) {
+    body {
+        max-width: 1440px;
+    }
+
+
     .container {
         min-width: 1024px;
         max-width: 1440px;
