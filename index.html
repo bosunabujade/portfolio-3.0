@@ -1,268 +1,312 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Bosun Abujade's Portfolio</title>
-    <link rel="stylesheet" href="normalize/master.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
 
 </head>
-
 <body>
     <div class="container" id="container">
         <header>
-            <nav>
-                <h1><a href="./index.html">Bosun Abujade</a></h1>
-                <button class="hamburger" id="hamburger">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <ul class="sidenav" id="mySidenav">
-                    <li class="closebtn" id="closebtn">
-                        <i class="fa fa-times closebtn"></i>
-                    </li>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./index.html#projects">Projects</a></li>
-                    <li><a href="./index.html#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navbar">
+                <img class="hexagon-m hexagon-nav-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-nav-d" src="./img/hexagons-desktop.svg" alt="hexagons" />
+                <h1><a href='./index.html'>Ola Abujade</a></h1>
+                <nav>
+                    <button class="hamburger" id="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </button>
+                    <ul class="sidenav" id="sidenav">
+                        <li class="closebtn" id="closebtn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+                        </li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./projects.html">Portfolio</a></li>
+                        <li><a href="./index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="tagline">
                 <h2 class="name-change"></h2>
                 <p class="title">Front End Developer</p>
+                <span class="basic-btn"><a href='./index.html#about'>Get to know me</a></span>
+                <img class="hexagon-m hexagon-tagline-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-tagline-d" src="./img/hexagons-desktop.svg" alt="hexagons">
             </div>
         </header>
         <main>
-            <section class="about-hp-section">
+            <section class="about-hp-section" id="about">
+                <img class="hexagon-m hexagon-about-top-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-about-top-d" src="./img/hexagons-desktop.svg" alt="hexagons">
                 <h3>About Me</h3>
-                <img src="img/bosun.jpg" alt="profile-picture" class="profile-picture">
-                <p><strong>Welcome, my name is Bosun and I am a Front-End Developer! </strong> <br>
-
-                    After graduating with a double major in Sociology/ Criminology and Writing/Rhetoric, I struggled to
-                    find what I wanted to do with my career. Originally, I planned on law school, but something was
-                    always holding me back. Somethings to note about me is that I love learning, problem-solving, and
-                    any reason to be creative. Which is why law school was never the right choice for me because it
-                    lacked the creativity I crave in life.
-                    <br><br>
-                    So, one of the main reasons I believe I was drawn to become a developer is that it encompasses all
-                    three. Developing allows me to create beautiful projects from scratch challenging skills and testing
-                    my creativity!
-                    <br><br>
-                    Outside coding you can either find me having a full conversation with my television while
-                    binge-watching a show or performing a full-on concert for my furniture.
-
-                    <br>
-                    <br>
-                    <span class="learn-more"><a href="./about.html">Learn More</a></span>
-                </p>
+                <img src="./img/bosun.jpg" alt="profile-picture" class="profile-picture">
+                <div class="about-description">
+                    <p>
+                        <strong>Welcome, my name is Bosun and I am a Front-End Developer!  
+                        </strong><br>
+                        After graduating with a double major in Sociology/ Criminology and Writing/Rhetoric, I struggled to find what I wanted to do with my career. Originally, I planned on law school, but something was always holding me back. Some things to note about me are that I love learning, problem-solving, and any reason to be creative. Law school was never the right choice for me because it lacked the creativity I crave in life.
+                    </p>
+                    <p>
+                        So, one of the main reasons I believe I was drawn to become a developer is that it encompasses all three. Developing allows me to create beautiful projects from scratch, challenging my skills, and testing my creativity!
+                    </p>
+                    <p>
+                        Outside coding you can either find me having a full conversation with my television while
+                        binge-watching a show or performing a full-on concert for my furniture.
+                    </p>
+                    <span class="learn-more"><a href="./about.html">MOre About Me</a></span>
+                </div>
+                <img class="hexagon-m hexagon-about-bottom-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-about-bottom-d" src="./img/hexagons-desktop.svg" alt="hexagons">
             </section>
             <section class="skills-hp-section">
-                <h3>Skills & Tools</h3>
-                <div class="circle-container">
-                    <button class="circle blue">User Interface</button>
-                    <button class="circle pink">User Experience</button>
-                    <button class="circle gray">HTML5</button>
-                    <button class="circle green">CSS3</button>
-                    <button class="circle blue">FTP & Web Hosting</button>
-                    <button class="circle pink">Git & The Command Line</button>
-                    <button class="circle gray">GitHub</button>
-                    <button class="circle green">Version Control</button>
-                    <button class="circle blue">Flexbox</button>
-                    <button class="circle pink">Media Queries</button>
-                    <button class="circle gray">JavaScript</button>
-                    <button class="circle green ">React</button>
-                    <button class="circle blue">Text Editor (VSC)</button>
-                    <button class="circle pink">Photoshop</button>
-                    <button class="circle gray">Code Sandbox</button>
-                    <button class="circle green">Shopify</button>
-                    <button class="circle blue">Squarspace</button>
-                    <button class="circle pink">Wix</button>
-                    <button class="circle gray">Adobe</button>
-                    <button class="circle green">Slack</button>
+                <img class="hexagon-d hexagon-skills-top-d" src="./img/hexagons-desktop.svg" alt="hexagons">
+                <h3>skills & tools</h3>
+                <div class="skills-container">
+                    <div class="skills black">
+                        <p>User Interface</p>
+                        <p>User Experience</p>
+                        <p>Flexbox</p>
+                        <p>ftp & Webhosting</p>
+                        <p>JavaScript</p>
+                        <p>figma</p>
+                    </div>
+                    <div class="skills green">
+                        <p>html5</p>
+                        <p>css3</p>
+                        <p>react</p>
+                        <p>version control</p>
+                        <p>Photoshop</p>
+                        <p>apis</p>
+                    </div>
+                    <div class="skills black">
+                        <p>Adobe</p>
+                        <p>github</p>
+                        <p>Squarspace</p>
+                        <p>codesandbox</p>
+                        <p>text editor (vsc)</p>
+                        <p>jquery</p>
+                    </div>
+                    <div class="skills green">
+                        <p>git & the command line</p>
+                        <p>slack</p>
+                        <p>Shopify</p>
+                        <p>wix</p>
+                        <p>media Queries</p>
+                        <p>css grid</p>
+                    </div>
                 </div>
             </section>
             <section class="projects-section" id="projects">
+                <img class="hexagon-m hexagon-projects-top-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-projects-top-d" src="./img/hexagons-desktop.svg" alt="hexagons">
                 <h3>Projects</h3>
+                <div class="projects-container project-slides">
+                    <div class="project-box">
+                        <h4>Sticky Note App</h4>
+                        <a class="project-img-link" href="https://um59b.csb.app/" target="_blank" >
+                            <img class="project-img" src="./img/sticky-note.png" alt="Project picture of a sticky notes app">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">React</span>
+                                <span class="tag">ES6</span>
+                                <span class="tag">JSX</span>
+                                <span class="tag">CodeSandbox</span>
+                            </p>
+                            <p class="project-description">This is a Greenfield project that lets users create sticky notes,
+                                that allows users to keep track of their to-do items while keeping the classic sticky note
+                                style. Here they can add, delete, and search through their notes.</p>
+                            <a href="https://codesandbox.io/s/sticky-note-ui-um59b?resolutionWidth=320&resolutionHeight=675"
+                                target="_blank" class="view-button">View CodeSandbox</a>
+                            <a href="https://um59b.csb.app/" target="_blank" class="view-button">View Live Site</a>
+                        </div>
+                    </div>
 
-                <div class="project-box">
-                    <h4>Sticky Note App</h4>
-                    <a href="https://um59b.csb.app/" target="_blank" >
-                        <img class="project-img" src="./img/sticky-note.png" alt="Project picture of a sticky notes app">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">React</span>
-                        <span class="tag">ES6</span>
-                        <span class="tag">JSX</span>
-                        <span class="tag">CodeSandbox</span>
-                    </p>
-                    <p class="project-description">This is a Greenfield project that lets users create sticky notes,
-                        that allows users to keep track of their to-do items while keeping the classic sticky note
-                        style. Here they can add, delete, and search through their notes.</p>
-                    <a href="https://codesandbox.io/s/sticky-note-ui-um59b?resolutionWidth=320&resolutionHeight=675"
-                        target="_blank" class="view-button">View CodeSandbox</a>
-                    <a href="https://um59b.csb.app/" target="_blank" class="view-button">View Live Site</a>
-                </div>
+                    <div class="project-box">
+                        <h4>Name Tag Generator</h4>
+                        <a class="project-img-link"  href="https://byoc5.csb.app/" target="_blank">
+                            <img class="project-img" src="./img/name-tag.png" alt="project picture of name tag generator app">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">React</span>
+                                <span class="tag">ES6</span>
+                                <span class="tag">JSX</span>
+                                <span class="tag">CodeSandbox</span>
+                            </p>
+                            <p class="project-description">This is a name tag generator that allows users to create bulk name
+                                tags using functional components and ES6 modules.</p>
+                            <a href="https://codesandbox.io/s/name-tag-generator-byoc5" target="_blank" class="view-button">View
+                                CodeSandbox</a>
+                            <a href="https://byoc5.csb.app/" target="_blank" class="view-button">View Live Site</a>
+                        </div>
+                    </div>
 
-                <div class="project-box">
-                    <h4>Name Tag Generator</h4>
-                    <a href="https://byoc5.csb.app/" target="_blank">
-                        <img class="project-img" src="./img/name-tag.png" alt="project picture of name tag generator app">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">React</span>
-                        <span class="tag">ES6</span>
-                        <span class="tag">JSX</span>
-                        <span class="tag">CodeSandbox</span>
-                    </p>
-                    <p class="project-description">This is a name tag generator that allows users to create bulk name
-                        tags using functional components and ES6 modules.</p>
-                    <a href="https://codesandbox.io/s/name-tag-generator-byoc5" target="_blank" class="view-button">View
-                        CodeSandbox</a>
-                    <a href="https://byoc5.csb.app/" target="_blank" class="view-button">View Live Site</a>
-                </div>
+                    <div class="project-box">
+                        <h4>GitHub Repo Gallery</h4>
+                        <a class="project-img-link"  href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank">
+                            <img class="project-img" src="./img/github-repo-galary.png"
+                            alt=" project picture of my github repository gallery">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GitHub</span>
+                            </p>
+                            <p class="project-description">This project uses my GitHub profile to pull data to create a gallery
+                                of my repositories. This allows users to click on my repositories to see more details on them.
+                            </p>
+                            <a href="https://github.com/bosunabujade/github-repo-gallery" target="_blank"
+                                class="view-button">View
+                                GitHub</a>
+                            <a href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank"
+                                class="view-button">View Live
+                                Site</a>
+                        </div>
+                    </div>
 
-                <div class="project-box">
-                    <h4>GitHub Repo Gallery</h4>
-                    <a href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank">
-                        <img class="project-img" src="./img/github-repo-galary.png"
-                        alt=" project picture of my github repository gallery">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">GitHub</span>
-                    </p>
-                    <p class="project-description">This project uses my GitHub profile to pull data to create a gallery
-                        of my repositories. This allows users to click on my repositories to see more details on them.
-                    </p>
-                    <a href="https://github.com/bosunabujade/github-repo-gallery" target="_blank"
-                        class="view-button">View
-                        GitHub</a>
-                    <a href="https://bosunabujade.github.io/github-repo-gallery/" target="_blank"
-                        class="view-button">View Live
-                        Site</a>
-                </div>
+                    <div class="project-box">
+                        <h4>Guess the Word</h4>
+                        <a class="project-img-link"  href="https://bosunabujade.github.io/guess-the-word/" target="_blank">
+                            <img class="project-img" src="./img/guess-the-word.png"
+                            alt="project picture of my guess the word game">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GitHub</span>
+                            </p>
+                            <p class="project-description">This is a game where the player gets to guess a letter in hopes of
+                                revealing the hidden word before the guesses run out. (Hint: you only get 8 guesses!)</p>
+                            <a href="https://github.com/bosunabujade/guess-the-word" target="_blank" class="view-button">View
+                                GitHub</a>
+                            <a href="https://bosunabujade.github.io/guess-the-word/" target="_blank" class="view-button">View
+                                Live
+                                Site</a>
+                            </div>
+                    </div>
 
-                <div class="project-box">
-                    <h4>Guess the Word</h4>
-                    <a href="https://bosunabujade.github.io/guess-the-word/" target="_blank">
-                        <img class="project-img" src="./img/guess-the-word.png"
-                        alt="project picture of my guess the word game">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">GitHub</span>
-                    </p>
-                    <p class="project-description">This is a game where the player gets to guess a letter in hopes of
-                        revealing the hidden word before the guesses run out. (Hint: you only get 8 guesses!)</p>
-                    <a href="https://github.com/bosunabujade/guess-the-word" target="_blank" class="view-button">View
-                        GitHub</a>
-                    <a href="https://bosunabujade.github.io/guess-the-word/" target="_blank" class="view-button">View
-                        Live
-                        Site</a>
-                </div>
+                    <div class="project-box">
+                        <h4>Unplugged Responsive Website</h4>
+                        <a class="project-img-link"  href="https://bosunabujade.github.io/responsive-website/" target="_blank">
+                            <img class="project-img" src="./img/unpluged.png"
+                            alt="project picture of my unplugged responsive website">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GitHub</span>
+                                <span class="tag">Photoshop</span>
+                            </p>
+                            <p class="project-description">This is a three-page responsive website created from a design comp
+                                that adapts to mobile, tablet, and desktop screens.</p>
+                            <a href="https://github.com/bosunabujade/responsive-website" target="_blank"
+                                class="view-button">View
+                                GitHub</a>
+                            <a href="https://bosunabujade.github.io/responsive-website/" target="_blank"
+                                class="view-button">View Live
+                                Site</a>
+                            </div>
+                    </div>
 
-                <div class="project-box">
-                    <h4>Unplugged Responsive Website</h4>
-                    <a href="https://bosunabujade.github.io/responsive-website/" target="_blank">
-                        <img class="project-img" src="./img/unpluged.png"
-                        alt="project picture of my unplugged responsive website">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">GitHub</span>
-                        <span class="tag">Photoshop</span>
-                    </p>
-                    <p class="project-description">This is a three-page responsive website created from a design comp
-                        that adapts to mobile, tablet, and desktop screens.</p>
-                    <a href="https://github.com/bosunabujade/responsive-website" target="_blank"
-                        class="view-button">View
-                        GitHub</a>
-                    <a href="https://bosunabujade.github.io/responsive-website/" target="_blank"
-                        class="view-button">View Live
-                        Site</a>
+                    <div class="project-box">
+                        <h4>Three Column Preview Card Componet</h4>
+                        <a class="project-img-link"  href="https://bosunabujade.github.io/3-column-preview-card-componet/" target="_blank">
+                            <img class="project-img" src="./img/three-card-comp.png"
+                            alt="project picture of my three colum preview card">
+                        </a>
+                        <div class="project-box-text">
+                            <p class="tag-section">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">GitHub</span>
+                            </p>
+                            <p class="project-description">This is a three-column preview card that I created from a design comp
+                                that adapts to mobile and desktop screens.</p>
+                            <a href="https://github.com/bosunabujade/3-column-preview-card-componet" target="_blank"
+                                class="view-button">View GitHub</a>
+                            <a href="https://bosunabujade.github.io/3-column-preview-card-componet/" target="_blank"
+                                class="view-button">View Live Site</a>
+                            </div>
+                    </div>
+                    <div class="controls">
+                        <a class="prev" id="prev">&#10094;</a>
+                        <a class="next" id="next">&#10095;</a>
+                    </div>
                 </div>
-
-                <div class="project-box">
-                    <h4>Three Column Preview Card Componet</h4>
-                    <a href="https://bosunabujade.github.io/3-column-preview-card-componet/" target="_blank">
-                        <img class="project-img" src="./img/three-card-comp.png"
-                        alt="project picture of my three colum preview card">
-                    </a>
-                    <p class="tag-section">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">GitHub</span>
-                    </p>
-                    <p class="project-description">This is a three-column preview card that I created from a design comp
-                        that adapts to mobile and desktop screens.</p>
-                    <a href="https://github.com/bosunabujade/3-column-preview-card-componet" target="_blank"
-                        class="view-button">View GitHub</a>
-                    <a href="https://bosunabujade.github.io/3-column-preview-card-componet/" target="_blank"
-                        class="view-button">View Live Site</a>
-                </div>
+                <a class="more-projects" href="./projects.html">More Projects</a>
+                <img class="hexagon-m hexagon-projects-bottom-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-projects-bottom-d" src="./img/hexagons-desktop.svg" alt="hexagons">
             </section>
             <section class="contact" id="contact">
+                <img class="hexagon-m hexagon-contact-top-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-contact-top-d" src="./img/hexagons-desktop.svg" alt="hexagons">
                 <h3>Lets Connect</h3>
                 <div class="contact-form">
                     <form onsubmit="return false">
+                        <div class="name-email">
+                            <label for="name">First Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name.." onkeyup='validateName()'>
+                            <span class='error-message' id="name-error"></span>
 
-                        <label for="name">First Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name.." onkeyup='validateName()'>
-                        <span class='error-message' id="name-error"></span>
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Your email..." id="email" onkeyup='validateEmail()'>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
 
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Your email..." id="email" onkeyup='validateEmail()'>
-                        <span class="error-message" id="email-error"></span>
+                        <div class="message-container">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message.."
+                                onkeyup='vaildateMessage()'></textarea>
+                            <span class='error-message' id="message-error"></span>
+                        </div>
 
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Your message.."
-                            onkeyup='vaildateMessage()'></textarea>
-                        <span class='error-message' id="message-error"></span>
-
-                        <input onclick="validateForm()" type="submit" value="Submit">
-                        <span class='error-message' id='submit-error'></span>
-
+                        <div class="submit-container">
+                            <input onclick="validateForm()" type="submit" value="Submit">
+                            <span class='error-message' id='submit-error'></span>
+                        </div>
                     </form>
                 </div>
-                <div class="contact-info-sect">
-                <a href="tel:4016887101" class="contact-info">Ph. 401-688-7101</a>
-                <a href="mailto:bosunabujade@gmail.com" class=contact-info>Email: bosunabujade@gmail.com</a>
-                </div>
-                <div class="contact-icon">
-                    <a href="https://www.linkedin.com/in/olatunbosun-abujade-3b24b2211/" target="_blank"><i
-                            class="fa fa-linkedin"></i></a>
-                    <a href="https://github.com/bosunabujade" target="_blank"><i class="fa fa-github-square"></i></a>
-                </div>
+                <img class="hexagon-m hexagon-contact-bottom-m" src="./img/hexagons-mobile.svg" alt="hexagons">
             </section>
         </main>
         <footer>
-            <div>
-                <div class="footer-nav">
-                    <a href="index.html">Home</a>
-                    <a href="./about.html">About</a>
-                    <a href="./index.html#projects">Portfolio</a>
-                    <a href="./index.html#contact">Contact</a>
-                    <a href="https://www.linkedin.com/in/olatunbosun-abujade-3b24b2211/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/bosunabujade" target="_blank">github</a>
-                </div>
-
-                <p class="copyright">Copyright 2021 | Bosun Abujade</p>
+            <img class="hexagon-d hexagon-footer-top-d" src="./img/hexagons-desktop.svg" alt="hexagons">
+            <div class="contact-info-sect">
+                <a href="mailto:bosunabujade@gmail.com" class=contact-info><span>Email </span>bosunabujade@gmail.com</a>
+                <a href="tel:4016887101" class="contact-info">
+                    <span>phone </span>(401) 688 7101</a>
             </div>
+
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/olatunbosun-abujade" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                </a>
+                <a href="https://github.com/bosunabujade" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+                </a>
+            </div>
+
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./projects.html">Portfolio</a>
+                <a href="./index.html#contact">Contact</a>
+                <a href="https://www.linkedin.com/in/olatunbosun-abujade" target="_blank">LinkedIn</a>
+                <a href="https://github.com/bosunabujade" target="_blank">github</a>
+            </div>
+            <p class="copyright">Copyright 2021 | Bosun Abujade</p>
         </footer>
     </div>
 </body>
-
 </html>

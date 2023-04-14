@@ -1,77 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bosun Abujade's Portfolio</title>
-    <link rel="stylesheet" href="normalize/master.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <script src="script.js" defer></script>
-
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
 </head>
-
 <body>
-    <div class="container" id="container">
-        <header class="landing">
-            <nav>
-                <h1><a href="./index.html">Bosun Abujade</a></h1>
-                <button class="hamburger" id="hamburger">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <ul class="sidenav" id="mySidenav">
-                    <li><i class="fa fa-times closebtn" id="closebtn"></i></li>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./index.html#projects">Projects</a></li>
-                    <li><a href="./index.html#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="about">
-                <h3>About Me</h3>
-                <img src="./img/bosun-pic2.jpg" alt="Picture of Bosun Abujade">
-                <p>
-                    My Introduction to coding happened in college through a required course called Writing in Electronic
-                    Environment. Through this course, I was introduced to HTML and CSS and while I did not notice it at
-                    the time fell in love with coding. It was one of the few courses I took, where I found myself
-                    completing the assignments well before the due date and even attempting to go above and beyond the
-                    requirements. <br><br>
-
-                    Then in 2020 two years later my friend wanted to start a traveling itinerary business and need to
-                    build a website. However, she is not at all tech-savvy, so I offered to help her create it. She
-                    hosted her site on Squarespace and I was able to create a site that she loved, and I was also able
-                    to rediscover my love of coding. <br><br>
-
-                    One thing that I found when creating her website was the limitations that hosting on a web builder
-                    site could have, this encouraged me to look into learning how to build one from scratch and maybe
-                    freelance as a web developer. I quickly found that freelancing was not for me and through my
-                    research I was able to find Skillcrush and start my path to becoming a developer.
-
-                </p>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <div class="footer-nav">
-                    <a href="index.html">Home</a>
-                    <a href="./about.html">About</a>
-                    <a href="./index.html#projects">Portfolio</a>
-                    <a href="./index.html#contact">Contact</a>
-                    <a href="https://www.linkedin.com/in/olatunbosun-abujade-3b24b2211/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/bosunabujade" target="_blank">github</a>
-                </div>
-
-                <p class="copyright">Copyright 2021 | Bosun Abujade</p>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <img class="hexagon-m hexagon-nav-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+                <img class="hexagon-d hexagon-nav-d" src="./img/hexagons-desktop.svg" alt="hexagons" />
+                <h1><a href='./index.html'>Ola Abujade</a></h1>
+                <nav>
+                    <button class="hamburger" id="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </button>
+                    <ul class="sidenav" id="sidenav">
+                        <li class="closebtn" id="closebtn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+                        </li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./projects.html">Portfolio</a></li>
+                        <li><a href="./index.html#contact">Contacts</a></li>
+                    </ul>
+                </nav>
             </div>
-        </footer>
+        </header>
+        <section class="about">
+            <h3>About Me</h3>
+            <img  class="about-page-img" src="./img/bosun-pic2.jpg" alt="Picture of Bosun Abujade">
+            <p>
+                My Introduction to coding happened in college through a required course called Writing in Electronic
+                Environment. Through this course, I was introduced to HTML and CSS and while I did not know it at
+                the time fell I in love with coding. It was one of the few courses I took, where I found myself
+                completing the assignments well before the due date and even attempting to go above and beyond the
+                requirements. <br><br>
+
+                Then in 2020 two years later my friend wanted to start a traveling itinerary business and need to
+                build a website. However, she is not at all tech-savvy, so I offered to help her create it. She
+                hosted her site on Squarespace and I was able to create a site that she loved, and I was also able
+                to rediscover my love of coding. <br><br>
+
+                One thing that I found when creating her website was the limitations that hosting on a web builder
+                site could have, this encouraged me to look into learning how to build one from scratch and maybe
+                freelance as a web developer. I quickly found that freelancing was not for me and through my
+                research I was able to find Skillcrush and start my path to becoming a developer.
+
+            </p>
+            <img class="hexagon-m hexagon-about-page-m" src="./img/hexagons-mobile.svg" alt="hexagons">
+            <img class="hexagon-d hexagon-about-page-d" src="./img/hexagons-desktop.svg" alt="hexagons" />
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./projects.html">Portfolio</a>
+                <a href="./index.html#contact">Contact</a>
+                <a href="https://www.linkedin.com/in/olatunbosun-abujade" target="_blank">LinkedIn</a>
+                <a href="https://github.com/bosunabujade" target="_blank">github</a>
+            </div>
+            <p class="copyright">Copyright 2021 | Bosun Abujade</p>
+        </div>
+    </footer>
+
     </div>
 </body>
-
 </html>
